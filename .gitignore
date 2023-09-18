@@ -1,1 +1,9 @@
+<<<<<<< HEAD
 /Symbols
+=======
+/Symbols
+/Installer
+/slprj
+/Experiment
+*.slxc
+>>>>>>> 89bb0b2 (feat [#-] : Add few file to gitignore)
