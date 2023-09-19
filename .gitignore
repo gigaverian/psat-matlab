@@ -1,5 +1,10 @@
 /Symbols
 /Installer
 /slprj
+<<<<<<< HEAD
 /Experiment
 *.slxc
+=======
+*.slxc
+/Experiment
+>>>>>>> dev-back
