@@ -1,5 +1,0 @@
-%initpsat;
-initpsat;
-runpsat('system_back_end.mdl','data');
-runpsat('pf');
-V
