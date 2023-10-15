@@ -1,3 +1,8 @@
+%initpsat;
+sg01_power_rating = 25;
+sg01_block =  
+
+
 initpsat;
 runpsat('system_back_end.mdl','data');
 runpsat('pf');
