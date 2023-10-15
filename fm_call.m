@@ -26,24 +26,20 @@ switch flag
  case 'gen'
 
   Line = gcall(Line);
-  gcall(PQ)
   gcall(Ind)
 
  case 'load'
 
-  gcall(PQ)
   gcall(Ind)
   gisland(Bus)
 
  case 'gen0'
 
   Line = gcall(Line);
-  gcall(PQ)
   gcall(Ind)
 
  case 'load0'
 
-  gcall(PQ)
   gcall(Ind)
   gisland(Bus)
 
@@ -55,7 +51,6 @@ switch flag
  case '1r'
 
   Line = gcall(Line);
-  gcall(PQ)
   Syn = gcall(Syn);
   gcall(Ind)
   SW = gcall(SW);
@@ -81,7 +76,6 @@ switch flag
  case 'fdpf'
 
   Line = gcall(Line);
-  gcall(PQ)
   gcall(Ind)
   SW = gcall(SW);
   gisland(Bus)
@@ -89,12 +83,10 @@ switch flag
  case 'l'
 
   Line = gcall(Line);
-  gcall(PQ)
   gcall(Ind)
   SW = gcall(SW);
   gisland(Bus)
   Gycall(Line)
-  Gycall(PQ)
   Gycall(Ind)
   Gycall(SW)
   Gyisland(Bus)
@@ -111,12 +103,10 @@ switch flag
  case 'kg'
 
   Line = gcall(Line);
-  gcall(PQ)
   Syn = gcall(Syn);
   gcall(Ind)
   gisland(Bus)
   Gycall(Line)
-  Gycall(PQ)
   Syn = Gycall(Syn);
   Gycall(Ind)
   Gyisland(Bus)
@@ -135,14 +125,12 @@ switch flag
 
   global PV SW
   Line = gcall(Line);
-  gcall(PQ)
   gcall(Ind)
   PV = gcall(PV);
   greactive(SW)
   glambda(SW,1,DAE.kg)
   gisland(Bus)
   Gycall(Line)
-  Gycall(PQ)
   Gycall(Ind)
   Gycall(PV)
   Gyreactive(SW)
@@ -159,13 +147,11 @@ switch flag
  case 'n'
 
   Line = gcall(Line);
-  gcall(PQ)
   Syn = gcall(Syn);
   gcall(Ind)
   SW = gcall(SW);
   gisland(Bus)
   Gycall(Line)
-  Gycall(PQ)
   Syn = Gycall(Syn);
   Gycall(Ind)
   Gycall(SW)
@@ -175,13 +161,11 @@ switch flag
  case 'i'
 
   Line = gcall(Line);
-  gcall(PQ)
   Syn = gcall(Syn);
   gcall(Ind)
   SW = gcall(SW);
   gisland(Bus)
   Gycall(Line)
-  Gycall(PQ)
   Syn = Gycall(Syn);
   Gycall(Ind)
   Gycall(SW)
