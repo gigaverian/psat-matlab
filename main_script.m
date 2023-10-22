@@ -1,4 +1,6 @@
+%open_system('system_back_end.mdl');
 initpsat;
+load_system('system_back_end.mdl');
 runpsat('system_back_end.mdl','data');
 runpsat('pf');
 Vm = DAE.y(Bus.v);
