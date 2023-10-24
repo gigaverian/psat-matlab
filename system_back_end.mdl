@@ -42,8 +42,8 @@ __MWOPC_PART_BEGIN__ /metadata/coreProperties.xml
   <dcterms:created xsi:type="dcterms:W3CDTF">2023-10-11T02:25:35Z</dcterms:created>
   <dc:creator>Cinovasi</dc:creator>
   <cp:lastModifiedBy>Cinovasi</cp:lastModifiedBy>
-  <dcterms:modified xsi:type="dcterms:W3CDTF">2023-10-15T14:58:29Z</dcterms:modified>
-  <cp:revision>1.16</cp:revision>
+  <dcterms:modified xsi:type="dcterms:W3CDTF">2023-10-24T01:25:59Z</dcterms:modified>
+  <cp:revision>1.21</cp:revision>
   <cp:version>R2023a</cp:version>
 </cp:coreProperties>
 
@@ -109,7 +109,7 @@ __MWOPC_PART_BEGIN__ /simulink/blockdiagram.xml
     <ConfigManagerSettings>
       <P Name="ModifiedByFormat">%&lt;Auto&gt;</P>
       <P Name="ModifiedDateFormat">%&lt;Auto&gt;</P>
-      <P Name="ModelVersionFormat">%&lt;AutoIncrement:1.16&gt;</P>
+      <P Name="ModelVersionFormat">%&lt;AutoIncrement:1.21&gt;</P>
     </ConfigManagerSettings>
     <SimulationSettings>
       <P Name="SimulationMode">normal</P>
@@ -914,8 +914,8 @@ __MWOPC_PART_BEGIN__ /simulink/graphicalInterface.xml
 __MWOPC_PART_BEGIN__ /simulink/modelDictionary.xml
 <?xml version="1.0" encoding="UTF-8"?>
 <MF0 version="1.1" defaultPackage="slid" packageUris="http://schema.mathworks.com/mf0/slid/R2023a_20220628">
-  <System type="System" uuid="8f167351-2811-453c-a695-119d2f832e48">
-    <Interface type="Interface" uuid="51c1fc9a-9f86-4300-a02f-cbad87ba36d6"/>
+  <System type="System" uuid="1c33ab5b-bfd5-47d3-bd9f-70fd563abb18">
+    <Interface type="Interface" uuid="02c4b04d-309d-473e-9957-0429266b526f"/>
   </System>
 </MF0>
 __MWOPC_PART_BEGIN__ /simulink/ScheduleCore.xml
@@ -1005,17 +1005,17 @@ __MWOPC_PART_BEGIN__ /simulink/ScheduleEditor.xml
 __MWOPC_PART_BEGIN__ /simulink/systems/_rels/system_root.xml.rels
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
-  <Relationship Id="system_1" Target="system_1.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
-  <Relationship Id="system_61" Target="system_61.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
-  <Relationship Id="system_65" Target="system_65.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
-  <Relationship Id="system_69" Target="system_69.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
+  <Relationship Id="system_123" Target="system_123.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
+  <Relationship Id="system_139" Target="system_139.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
+  <Relationship Id="system_143" Target="system_143.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
+  <Relationship Id="system_147" Target="system_147.xml" Type="http://schemas.mathworks.com/simulink/2010/relationships/system"/>
 </Relationships>
 
-__MWOPC_PART_BEGIN__ /simulink/systems/system_1.xml
+__MWOPC_PART_BEGIN__ /simulink/systems/system_123.xml
 <?xml version="1.0" encoding="utf-8"?>
 <System>
   <P Name="Location">[1919, -72, 3457, 801]</P>
-  <Block BlockType="PMComponent" Name="Atomic Subsystem" SID="2">
+  <Block BlockType="PMComponent" Name="Atomic Subsystem" SID="124">
     <PortCounts rconn="1"/>
     <P Name="Position">[140, 89, 240, 131]</P>
     <P Name="ZOrder">-1</P>
@@ -1025,7 +1025,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_1.xml
     <P Name="RightPortType">p1</P>
     <P Name="RConnTagsString">__newr0</P>
   </Block>
-  <Block BlockType="PMIOPort" Name="Connection&#xA;Port1" SID="3">
+  <Block BlockType="PMIOPort" Name="Connection&#xA;Port1" SID="125">
     <P Name="Tag">PMCPort</P>
     <P Name="Position">[280, 101, 310, 119]</P>
     <P Name="ZOrder">-2</P>
@@ -1035,10 +1035,10 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_1.xml
   </Block>
   <Line LineType="Connection">
     <P Name="ZOrder">1</P>
-    <P Name="Src">2#rconn:1</P>
-    <P Name="Dst">3#rconn:1</P>
+    <P Name="Src">124#rconn:1</P>
+    <P Name="Dst">125#rconn:1</P>
   </Line>
-  <Annotation SID="4">
+  <Annotation SID="126">
     <P Name="Name">Synchronous Machine</P>
     <P Name="Position">[164, 45, 264, 60]</P>
     <P Name="InternalMargins">[0, 0, 0, 0]</P>
@@ -1048,11 +1048,11 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_1.xml
   </Annotation>
 </System>
 
-__MWOPC_PART_BEGIN__ /simulink/systems/system_61.xml
+__MWOPC_PART_BEGIN__ /simulink/systems/system_139.xml
 <?xml version="1.0" encoding="utf-8"?>
 <System>
   <P Name="Location">[1919, -72, 3457, 801]</P>
-  <Block BlockType="PMComponent" Name="Atomic Subsystem" SID="62">
+  <Block BlockType="PMComponent" Name="Atomic Subsystem" SID="140">
     <PortCounts rconn="1"/>
     <P Name="Position">[140, 89, 240, 131]</P>
     <P Name="ZOrder">-1</P>
@@ -1062,7 +1062,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_61.xml
     <P Name="RightPortType">p1</P>
     <P Name="RConnTagsString">__newr0</P>
   </Block>
-  <Block BlockType="PMIOPort" Name="Connection&#xA;Port1" SID="63">
+  <Block BlockType="PMIOPort" Name="Connection&#xA;Port1" SID="141">
     <P Name="Tag">PMCPort</P>
     <P Name="Position">[280, 101, 310, 119]</P>
     <P Name="ZOrder">-2</P>
@@ -1072,10 +1072,10 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_61.xml
   </Block>
   <Line LineType="Connection">
     <P Name="ZOrder">1</P>
-    <P Name="Src">62#rconn:1</P>
-    <P Name="Dst">63#rconn:1</P>
+    <P Name="Src">140#rconn:1</P>
+    <P Name="Dst">141#rconn:1</P>
   </Line>
-  <Annotation SID="64">
+  <Annotation SID="142">
     <P Name="Name">Synchronous Machine</P>
     <P Name="Position">[164, 45, 264, 60]</P>
     <P Name="InternalMargins">[0, 0, 0, 0]</P>
@@ -1085,11 +1085,11 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_61.xml
   </Annotation>
 </System>
 
-__MWOPC_PART_BEGIN__ /simulink/systems/system_65.xml
+__MWOPC_PART_BEGIN__ /simulink/systems/system_143.xml
 <?xml version="1.0" encoding="utf-8"?>
 <System>
   <P Name="Location">[1919, -72, 3457, 801]</P>
-  <Block BlockType="PMComponent" Name="Atomic Subsystem" SID="66">
+  <Block BlockType="PMComponent" Name="Atomic Subsystem" SID="144">
     <PortCounts rconn="1"/>
     <P Name="Position">[140, 89, 240, 131]</P>
     <P Name="ZOrder">-1</P>
@@ -1099,7 +1099,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_65.xml
     <P Name="RightPortType">p1</P>
     <P Name="RConnTagsString">__newr0</P>
   </Block>
-  <Block BlockType="PMIOPort" Name="Connection&#xA;Port1" SID="67">
+  <Block BlockType="PMIOPort" Name="Connection&#xA;Port1" SID="145">
     <P Name="Tag">PMCPort</P>
     <P Name="Position">[280, 101, 310, 119]</P>
     <P Name="ZOrder">-2</P>
@@ -1109,10 +1109,10 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_65.xml
   </Block>
   <Line LineType="Connection">
     <P Name="ZOrder">1</P>
-    <P Name="Src">66#rconn:1</P>
-    <P Name="Dst">67#rconn:1</P>
+    <P Name="Src">144#rconn:1</P>
+    <P Name="Dst">145#rconn:1</P>
   </Line>
-  <Annotation SID="68">
+  <Annotation SID="146">
     <P Name="Name">Synchronous Machine</P>
     <P Name="Position">[164, 45, 264, 60]</P>
     <P Name="InternalMargins">[0, 0, 0, 0]</P>
@@ -1122,11 +1122,11 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_65.xml
   </Annotation>
 </System>
 
-__MWOPC_PART_BEGIN__ /simulink/systems/system_69.xml
+__MWOPC_PART_BEGIN__ /simulink/systems/system_147.xml
 <?xml version="1.0" encoding="utf-8"?>
 <System>
   <P Name="Location">[1919, -72, 3457, 801]</P>
-  <Block BlockType="PMComponent" Name="Atomic Subsystem" SID="70">
+  <Block BlockType="PMComponent" Name="Atomic Subsystem" SID="148">
     <PortCounts rconn="1"/>
     <P Name="Position">[140, 89, 240, 131]</P>
     <P Name="ZOrder">-1</P>
@@ -1136,7 +1136,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_69.xml
     <P Name="RightPortType">p1</P>
     <P Name="RConnTagsString">__newr0</P>
   </Block>
-  <Block BlockType="PMIOPort" Name="Connection&#xA;Port1" SID="71">
+  <Block BlockType="PMIOPort" Name="Connection&#xA;Port1" SID="149">
     <P Name="Tag">PMCPort</P>
     <P Name="Position">[280, 101, 310, 119]</P>
     <P Name="ZOrder">-2</P>
@@ -1146,10 +1146,10 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_69.xml
   </Block>
   <Line LineType="Connection">
     <P Name="ZOrder">1</P>
-    <P Name="Src">70#rconn:1</P>
-    <P Name="Dst">71#rconn:1</P>
+    <P Name="Src">148#rconn:1</P>
+    <P Name="Dst">149#rconn:1</P>
   </Line>
-  <Annotation SID="72">
+  <Annotation SID="150">
     <P Name="Name">Synchronous Machine</P>
     <P Name="Position">[164, 45, 264, 60]</P>
     <P Name="InternalMargins">[0, 0, 0, 0]</P>
@@ -1164,15 +1164,14 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
 <System>
   <P Name="Location">[1919, -72, 3457, 801]</P>
   <P Name="Open">on</P>
-  <P Name="ZoomFactor">125</P>
   <P Name="ReportName">simulink-default.rpt</P>
-  <P Name="SIDHighWatermark">97</P>
-  <Block BlockType="PMComponent" Name="101-HSW-A02" SID="25">
+  <P Name="SIDHighWatermark">156</P>
+  <Block BlockType="PMComponent" Name="101-HSW-A02" SID="98">
     <P Name="Tag">PSATblock</P>
     <P Name="Description">Connection</P>
-    <PortCounts lconn="3" rconn="1"/>
-    <P Name="Position">[437, 485, 693, 490]</P>
-    <P Name="ZOrder">13</P>
+    <PortCounts lconn="2" rconn="1"/>
+    <P Name="Position">[307, 650, 563, 655]</P>
+    <P Name="ZOrder">105</P>
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="BackgroundColor">black</P>
@@ -1180,7 +1179,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
     <P Name="PhysicalDomain">psatdomain</P>
     <P Name="LeftPortType">p1</P>
     <P Name="RightPortType">p1</P>
-    <P Name="LConnTagsString">__newl0|__newl1|__newl2</P>
+    <P Name="LConnTagsString">__newl0|__newl1</P>
     <P Name="RConnTagsString">__newr0</P>
     <Mask SelfModifiable="on">
       <Type>Bus</Type>
@@ -1191,7 +1190,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
 </Initialization>
       <MaskParameter Name="in" Type="edit">
         <Prompt>Number of inputs:</Prompt>
-        <Value>3</Value>
+        <Value>2</Value>
       </MaskParameter>
       <MaskParameter Name="out" Type="edit">
         <Prompt>Number of outputs:</Prompt>
@@ -1199,7 +1198,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
       </MaskParameter>
       <MaskParameter Name="p2q" Type="edit">
         <Prompt>Voltage Rating [kV]</Prompt>
-        <Value>33</Value>
+        <Value>34.5</Value>
       </MaskParameter>
       <MaskParameter Name="p3_4q" Type="edit">
         <Prompt>Voltage initial guess [p.u.  rad]</Prompt>
@@ -1243,12 +1242,12 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
       </DialogControl>
     </Mask>
   </Block>
-  <Block BlockType="PMComponent" Name="101-HSW-A03" SID="27">
+  <Block BlockType="PMComponent" Name="101-HSW-A03" SID="99">
     <P Name="Tag">PSATblock</P>
     <P Name="Description">Connection</P>
     <PortCounts lconn="2" rconn="1"/>
-    <P Name="Position">[1165, 485, 1420, 490]</P>
-    <P Name="ZOrder">15</P>
+    <P Name="Position">[1035, 650, 1290, 655]</P>
+    <P Name="ZOrder">106</P>
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="BackgroundColor">black</P>
@@ -1275,7 +1274,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
       </MaskParameter>
       <MaskParameter Name="p2q" Type="edit">
         <Prompt>Voltage Rating [kV]</Prompt>
-        <Value>33</Value>
+        <Value>34.5</Value>
       </MaskParameter>
       <MaskParameter Name="p3_4q" Type="edit">
         <Prompt>Voltage initial guess [p.u.  rad]</Prompt>
@@ -1292,12 +1291,12 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
       </MaskParameter>
     </Mask>
   </Block>
-  <Block BlockType="PMComponent" Name="101-HSW-C01A&amp;B" SID="52">
+  <Block BlockType="PMComponent" Name="101-HSW-C01A&amp;B" SID="100">
     <P Name="Tag">PSATblock</P>
     <P Name="Description">Connection</P>
     <PortCounts lconn="2" rconn="4"/>
-    <P Name="Position">[784, 830, 1041, 835]</P>
-    <P Name="ZOrder">27</P>
+    <P Name="Position">[654, 995, 911, 1000]</P>
+    <P Name="ZOrder">112</P>
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="BackgroundColor">black</P>
@@ -1324,7 +1323,7 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
       </MaskParameter>
       <MaskParameter Name="p2q" Type="edit">
         <Prompt>Voltage Rating [kV]</Prompt>
-        <Value>5</Value>
+        <Value>6.6</Value>
       </MaskParameter>
       <MaskParameter Name="p3_4q" Type="edit">
         <Prompt>Voltage initial guess [p.u.  rad]</Prompt>
@@ -1341,12 +1340,12 @@ __MWOPC_PART_BEGIN__ /simulink/systems/system_root.xml
       </MaskParameter>
     </Mask>
   </Block>
-  <Block BlockType="PMComponent" Name="101-TR-AC01A" SID="45">
+  <Block BlockType="PMComponent" Name="101-TR-AC01A" SID="101">
     <P Name="Tag">PSATblock</P>
     <P Name="Description">Power Flow</P>
     <PortCounts lconn="1" rconn="1"/>
-    <P Name="Position">[552, 600, 578, 650]</P>
-    <P Name="ZOrder">20</P>
+    <P Name="Position">[422, 765, 448, 815]</P>
+    <P Name="ZOrder">108</P>
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
@@ -1373,7 +1372,7 @@ plot(1.5+0.65*x2,0.65*y2)</Display>
       </MaskParameter>
       <MaskParameter Name="p7q" Type="edit">
         <Prompt>Primary and secondary voltage ratio [kV/kV]</Prompt>
-        <Value>33/7</Value>
+        <Value>33/6.6</Value>
       </MaskParameter>
       <MaskParameter Name="p8q" Type="edit">
         <Prompt>Resistance [p.u.]</Prompt>
@@ -1394,12 +1393,12 @@ plot(1.5+0.65*x2,0.65*y2)</Display>
       </MaskParameter>
     </Mask>
   </Block>
-  <Block BlockType="PMComponent" Name="101-TR-AC01B" SID="76">
+  <Block BlockType="PMComponent" Name="101-TR-AC01B" SID="102">
     <P Name="Tag">PSATblock</P>
     <P Name="Description">Power Flow</P>
     <PortCounts lconn="1" rconn="1"/>
-    <P Name="Position">[1282, 600, 1308, 650]</P>
-    <P Name="ZOrder">42</P>
+    <P Name="Position">[1152, 765, 1178, 815]</P>
+    <P Name="ZOrder">127</P>
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
@@ -1426,7 +1425,7 @@ plot(1.5+0.65*x2,0.65*y2)</Display>
       </MaskParameter>
       <MaskParameter Name="p7q" Type="edit">
         <Prompt>Primary and secondary voltage ratio [kV/kV]</Prompt>
-        <Value>33/7</Value>
+        <Value>33/6.6</Value>
       </MaskParameter>
       <MaskParameter Name="p8q" Type="edit">
         <Prompt>Resistance [p.u.]</Prompt>
@@ -1447,12 +1446,12 @@ plot(1.5+0.65*x2,0.65*y2)</Display>
       </MaskParameter>
     </Mask>
   </Block>
-  <Block BlockType="PMComponent" Name="101-TR-BA01" SID="17">
+  <Block BlockType="PMComponent" Name="101-TR-BA01" SID="103">
     <P Name="Tag">PSATblock</P>
     <P Name="Description">Power Flow</P>
     <PortCounts lconn="1" rconn="1"/>
-    <P Name="Position">[437, 255, 463, 305]</P>
-    <P Name="ZOrder">5</P>
+    <P Name="Position">[307, 420, 333, 470]</P>
+    <P Name="ZOrder">100</P>
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
@@ -1479,7 +1478,7 @@ plot(1.5+0.65*x2,0.65*y2)</Display>
       </MaskParameter>
       <MaskParameter Name="p7q" Type="edit">
         <Prompt>Primary and secondary voltage ratio [kV/kV]</Prompt>
-        <Value>11/20</Value>
+        <Value>11/34.5</Value>
       </MaskParameter>
       <MaskParameter Name="p8q" Type="edit">
         <Prompt>Resistance [p.u.]</Prompt>
@@ -1527,12 +1526,12 @@ plot(1.5+0.65*x2,0.65*y2)</Display>
       </DialogControl>
     </Mask>
   </Block>
-  <Block BlockType="PMComponent" Name="101-TR-BA02" SID="73">
+  <Block BlockType="PMComponent" Name="101-TR-BA02" SID="104">
     <P Name="Tag">PSATblock</P>
     <P Name="Description">Power Flow</P>
     <PortCounts lconn="1" rconn="1"/>
-    <P Name="Position">[667, 255, 693, 305]</P>
-    <P Name="ZOrder">39</P>
+    <P Name="Position">[537, 420, 563, 470]</P>
+    <P Name="ZOrder">124</P>
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
@@ -1559,7 +1558,7 @@ plot(1.5+0.65*x2,0.65*y2)</Display>
       </MaskParameter>
       <MaskParameter Name="p7q" Type="edit">
         <Prompt>Primary and secondary voltage ratio [kV/kV]</Prompt>
-        <Value>11/20</Value>
+        <Value>11/34.5</Value>
       </MaskParameter>
       <MaskParameter Name="p8q" Type="edit">
         <Prompt>Resistance [p.u.]</Prompt>
@@ -1580,12 +1579,12 @@ plot(1.5+0.65*x2,0.65*y2)</Display>
       </MaskParameter>
     </Mask>
   </Block>
-  <Block BlockType="PMComponent" Name="101-TR-BA03" SID="74">
+  <Block BlockType="PMComponent" Name="101-TR-BA03" SID="105">
     <P Name="Tag">PSATblock</P>
     <P Name="Description">Power Flow</P>
     <PortCounts lconn="1" rconn="1"/>
-    <P Name="Position">[1172, 255, 1198, 305]</P>
-    <P Name="ZOrder">40</P>
+    <P Name="Position">[1042, 420, 1068, 470]</P>
+    <P Name="ZOrder">125</P>
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
@@ -1612,7 +1611,7 @@ plot(1.5+0.65*x2,0.65*y2)</Display>
       </MaskParameter>
       <MaskParameter Name="p7q" Type="edit">
         <Prompt>Primary and secondary voltage ratio [kV/kV]</Prompt>
-        <Value>11/20</Value>
+        <Value>11/34.5</Value>
       </MaskParameter>
       <MaskParameter Name="p8q" Type="edit">
         <Prompt>Resistance [p.u.]</Prompt>
@@ -1633,12 +1632,12 @@ plot(1.5+0.65*x2,0.65*y2)</Display>
       </MaskParameter>
     </Mask>
   </Block>
-  <Block BlockType="PMComponent" Name="101-TR-BA04" SID="75">
+  <Block BlockType="PMComponent" Name="101-TR-BA04" SID="106">
     <P Name="Tag">PSATblock</P>
     <P Name="Description">Power Flow</P>
     <PortCounts lconn="1" rconn="1"/>
-    <P Name="Position">[1397, 255, 1423, 305]</P>
-    <P Name="ZOrder">41</P>
+    <P Name="Position">[1267, 420, 1293, 470]</P>
+    <P Name="ZOrder">126</P>
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
@@ -1665,7 +1664,7 @@ plot(1.5+0.65*x2,0.65*y2)</Display>
       </MaskParameter>
       <MaskParameter Name="p7q" Type="edit">
         <Prompt>Primary and secondary voltage ratio [kV/kV]</Prompt>
-        <Value>11/20</Value>
+        <Value>11/34.5</Value>
       </MaskParameter>
       <MaskParameter Name="p8q" Type="edit">
         <Prompt>Resistance [p.u.]</Prompt>
@@ -1686,12 +1685,12 @@ plot(1.5+0.65*x2,0.65*y2)</Display>
       </MaskParameter>
     </Mask>
   </Block>
-  <Block BlockType="PMComponent" Name="A-332-01-K1-M" SID="58">
+  <Block BlockType="PMComponent" Name="A-332-01-K1-M" SID="107">
     <P Name="Tag">PSATblock</P>
     <P Name="Description">Machines</P>
     <PortCounts lconn="1"/>
-    <P Name="Position">[799, 1105, 831, 1140]</P>
-    <P Name="ZOrder">33</P>
+    <P Name="Position">[669, 1270, 701, 1305]</P>
+    <P Name="ZOrder">118</P>
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
@@ -1714,7 +1713,7 @@ Order 5:  double cage</Description>
 [xs,ys] = fm_draw(&apos;sinus&apos;);</Initialization>
       <MaskParameter Name="p2_3_4q" Type="edit">
         <Prompt>Power, Voltage and Frequency Ratings [MVA, kV, Hz]</Prompt>
-        <Value>[40 6.6 50]</Value>
+        <Value>[0.5 6.6 50]</Value>
       </MaskParameter>
       <MaskParameter Name="p5q" Type="popup">
         <Prompt>Dynamic Order</Prompt>
@@ -1773,12 +1772,12 @@ Order 5:  double cage</Description>
       </MaskParameter>
     </Mask>
   </Block>
-  <Block BlockType="PMComponent" Name="A-332-01-K2-M" SID="59">
+  <Block BlockType="PMComponent" Name="A-332-01-K2-M" SID="108">
     <P Name="Tag">PSATblock</P>
     <P Name="Description">Machines</P>
     <PortCounts lconn="1"/>
-    <P Name="Position">[994, 1105, 1026, 1140]</P>
-    <P Name="ZOrder">34</P>
+    <P Name="Position">[864, 1270, 896, 1305]</P>
+    <P Name="ZOrder">119</P>
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
@@ -1801,7 +1800,7 @@ Order 5:  double cage</Description>
 [xs,ys] = fm_draw(&apos;sinus&apos;);</Initialization>
       <MaskParameter Name="p2_3_4q" Type="edit">
         <Prompt>Power, Voltage and Frequency Ratings [MVA, kV, Hz]</Prompt>
-        <Value>[40 6.6 50]</Value>
+        <Value>[0.5 6.6 50]</Value>
       </MaskParameter>
       <MaskParameter Name="p5q" Type="popup">
         <Prompt>Dynamic Order</Prompt>
@@ -1860,12 +1859,12 @@ Order 5:  double cage</Description>
       </MaskParameter>
     </Mask>
   </Block>
-  <Block BlockType="PMComponent" Name="A-332-01-K3-M" SID="57">
+  <Block BlockType="PMComponent" Name="A-332-01-K3-M" SID="109">
     <P Name="Tag">PSATblock</P>
     <P Name="Description">Machines</P>
     <PortCounts lconn="1"/>
-    <P Name="Position">[549, 1105, 581, 1140]</P>
-    <P Name="ZOrder">32</P>
+    <P Name="Position">[419, 1270, 451, 1305]</P>
+    <P Name="ZOrder">117</P>
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
@@ -1888,7 +1887,7 @@ Order 5:  double cage</Description>
 [xs,ys] = fm_draw(&apos;sinus&apos;);</Initialization>
       <MaskParameter Name="p2_3_4q" Type="edit">
         <Prompt>Power, Voltage and Frequency Ratings [MVA, kV, Hz]</Prompt>
-        <Value>[40 6.6 50]</Value>
+        <Value>[0.5 6.6 50]</Value>
       </MaskParameter>
       <MaskParameter Name="p5q" Type="popup">
         <Prompt>Dynamic Order</Prompt>
@@ -1996,12 +1995,12 @@ Order 5:  double cage</Description>
       </DialogControl>
     </Mask>
   </Block>
-  <Block BlockType="PMComponent" Name="A-332-01-K4-M" SID="60">
+  <Block BlockType="PMComponent" Name="A-332-01-K4-M" SID="110">
     <P Name="Tag">PSATblock</P>
     <P Name="Description">Machines</P>
     <PortCounts lconn="1"/>
-    <P Name="Position">[1189, 1105, 1221, 1140]</P>
-    <P Name="ZOrder">35</P>
+    <P Name="Position">[1059, 1270, 1091, 1305]</P>
+    <P Name="ZOrder">120</P>
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
@@ -2024,7 +2023,7 @@ Order 5:  double cage</Description>
 [xs,ys] = fm_draw(&apos;sinus&apos;);</Initialization>
       <MaskParameter Name="p2_3_4q" Type="edit">
         <Prompt>Power, Voltage and Frequency Ratings [MVA, kV, Hz]</Prompt>
-        <Value>[40 6.6 50]</Value>
+        <Value>[0.5 6.6 50]</Value>
       </MaskParameter>
       <MaskParameter Name="p5q" Type="popup">
         <Prompt>Dynamic Order</Prompt>
@@ -2083,12 +2082,12 @@ Order 5:  double cage</Description>
       </MaskParameter>
     </Mask>
   </Block>
-  <Block BlockType="PMComponent" Name="Breaker" SID="21">
+  <Block BlockType="PMComponent" Name="Breaker" SID="111">
     <P Name="Tag">PSATblock</P>
     <P Name="Description">Faults &amp; Breakers</P>
     <PortCounts lconn="1" rconn="1"/>
-    <P Name="Position">[440, 415, 460, 435]</P>
-    <P Name="ZOrder">9</P>
+    <P Name="Position">[310, 580, 330, 600]</P>
+    <P Name="ZOrder">101</P>
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
@@ -2129,12 +2128,12 @@ Order 5:  double cage</Description>
       </MaskParameter>
     </Mask>
   </Block>
-  <Block BlockType="PMComponent" Name="Breaker1" SID="22">
+  <Block BlockType="PMComponent" Name="Breaker1" SID="112">
     <P Name="Tag">PSATblock</P>
     <P Name="Description">Faults &amp; Breakers</P>
     <PortCounts lconn="1" rconn="1"/>
-    <P Name="Position">[670, 415, 690, 435]</P>
-    <P Name="ZOrder">10</P>
+    <P Name="Position">[540, 580, 560, 600]</P>
+    <P Name="ZOrder">102</P>
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
@@ -2175,12 +2174,12 @@ Order 5:  double cage</Description>
       </MaskParameter>
     </Mask>
   </Block>
-  <Block BlockType="PMComponent" Name="Breaker10" SID="55">
+  <Block BlockType="PMComponent" Name="Breaker10" SID="113">
     <P Name="Tag">PSATblock</P>
     <P Name="Description">Faults &amp; Breakers</P>
     <PortCounts lconn="1" rconn="1"/>
-    <P Name="Position">[935, 875, 955, 895]</P>
-    <P Name="ZOrder">30</P>
+    <P Name="Position">[805, 1040, 825, 1060]</P>
+    <P Name="ZOrder">115</P>
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
@@ -2221,12 +2220,12 @@ Order 5:  double cage</Description>
       </MaskParameter>
     </Mask>
   </Block>
-  <Block BlockType="PMComponent" Name="Breaker11" SID="56">
+  <Block BlockType="PMComponent" Name="Breaker11" SID="114">
     <P Name="Tag">PSATblock</P>
     <P Name="Description">Faults &amp; Breakers</P>
     <PortCounts lconn="1" rconn="1"/>
-    <P Name="Position">[1000, 875, 1020, 895]</P>
-    <P Name="ZOrder">31</P>
+    <P Name="Position">[870, 1040, 890, 1060]</P>
+    <P Name="ZOrder">116</P>
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
@@ -2267,12 +2266,12 @@ Order 5:  double cage</Description>
       </MaskParameter>
     </Mask>
   </Block>
-  <Block BlockType="PMComponent" Name="Breaker2" SID="23">
+  <Block BlockType="PMComponent" Name="Breaker2" SID="115">
     <P Name="Tag">PSATblock</P>
     <P Name="Description">Faults &amp; Breakers</P>
     <PortCounts lconn="1" rconn="1"/>
-    <P Name="Position">[1175, 415, 1195, 435]</P>
-    <P Name="ZOrder">11</P>
+    <P Name="Position">[1045, 580, 1065, 600]</P>
+    <P Name="ZOrder">103</P>
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
@@ -2313,12 +2312,12 @@ Order 5:  double cage</Description>
       </MaskParameter>
     </Mask>
   </Block>
-  <Block BlockType="PMComponent" Name="Breaker3" SID="24">
+  <Block BlockType="PMComponent" Name="Breaker3" SID="116">
     <P Name="Tag">PSATblock</P>
     <P Name="Description">Faults &amp; Breakers</P>
     <PortCounts lconn="1" rconn="1"/>
-    <P Name="Position">[1400, 415, 1420, 435]</P>
-    <P Name="ZOrder">12</P>
+    <P Name="Position">[1270, 580, 1290, 600]</P>
+    <P Name="ZOrder">104</P>
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
@@ -2359,12 +2358,12 @@ Order 5:  double cage</Description>
       </MaskParameter>
     </Mask>
   </Block>
-  <Block BlockType="PMComponent" Name="Breaker4" SID="44">
+  <Block BlockType="PMComponent" Name="Breaker4" SID="117">
     <P Name="Tag">PSATblock</P>
     <P Name="Description">Faults &amp; Breakers</P>
     <PortCounts lconn="1" rconn="1"/>
-    <P Name="Position">[555, 540, 575, 560]</P>
-    <P Name="ZOrder">19</P>
+    <P Name="Position">[425, 705, 445, 725]</P>
+    <P Name="ZOrder">107</P>
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
@@ -2405,12 +2404,12 @@ Order 5:  double cage</Description>
       </MaskParameter>
     </Mask>
   </Block>
-  <Block BlockType="PMComponent" Name="Breaker5" SID="48">
+  <Block BlockType="PMComponent" Name="Breaker5" SID="118">
     <P Name="Tag">PSATblock</P>
     <P Name="Description">Faults &amp; Breakers</P>
     <PortCounts lconn="1" rconn="1"/>
-    <P Name="Position">[1285, 540, 1305, 560]</P>
-    <P Name="ZOrder">23</P>
+    <P Name="Position">[1155, 705, 1175, 725]</P>
+    <P Name="ZOrder">109</P>
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
@@ -2451,12 +2450,12 @@ Order 5:  double cage</Description>
       </MaskParameter>
     </Mask>
   </Block>
-  <Block BlockType="PMComponent" Name="Breaker6" SID="50">
+  <Block BlockType="PMComponent" Name="Breaker6" SID="119">
     <P Name="Tag">PSATblock</P>
     <P Name="Description">Faults &amp; Breakers</P>
     <PortCounts lconn="1" rconn="1"/>
-    <P Name="Position">[555, 705, 575, 725]</P>
-    <P Name="ZOrder">25</P>
+    <P Name="Position">[425, 870, 445, 890]</P>
+    <P Name="ZOrder">110</P>
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
@@ -2497,12 +2496,12 @@ Order 5:  double cage</Description>
       </MaskParameter>
     </Mask>
   </Block>
-  <Block BlockType="PMComponent" Name="Breaker7" SID="51">
+  <Block BlockType="PMComponent" Name="Breaker7" SID="120">
     <P Name="Tag">PSATblock</P>
     <P Name="Description">Faults &amp; Breakers</P>
     <PortCounts lconn="1" rconn="1"/>
-    <P Name="Position">[1285, 705, 1305, 725]</P>
-    <P Name="ZOrder">26</P>
+    <P Name="Position">[1155, 870, 1175, 890]</P>
+    <P Name="ZOrder">111</P>
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
@@ -2543,12 +2542,12 @@ Order 5:  double cage</Description>
       </MaskParameter>
     </Mask>
   </Block>
-  <Block BlockType="PMComponent" Name="Breaker8" SID="53">
+  <Block BlockType="PMComponent" Name="Breaker8" SID="121">
     <P Name="Tag">PSATblock</P>
     <P Name="Description">Faults &amp; Breakers</P>
     <PortCounts lconn="1" rconn="1"/>
-    <P Name="Position">[805, 875, 825, 895]</P>
-    <P Name="ZOrder">28</P>
+    <P Name="Position">[675, 1040, 695, 1060]</P>
+    <P Name="ZOrder">113</P>
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
@@ -2589,12 +2588,12 @@ Order 5:  double cage</Description>
       </MaskParameter>
     </Mask>
   </Block>
-  <Block BlockType="PMComponent" Name="Breaker9" SID="54">
+  <Block BlockType="PMComponent" Name="Breaker9" SID="122">
     <P Name="Tag">PSATblock</P>
     <P Name="Description">Faults &amp; Breakers</P>
     <PortCounts lconn="1" rconn="1"/>
-    <P Name="Position">[870, 875, 890, 895]</P>
-    <P Name="ZOrder">29</P>
+    <P Name="Position">[740, 1040, 760, 1060]</P>
+    <P Name="ZOrder">114</P>
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
@@ -2635,12 +2634,12 @@ Order 5:  double cage</Description>
       </MaskParameter>
     </Mask>
   </Block>
-  <Block BlockType="SubSystem" Name="GTG&#xA;A-331-07A-GT01" SID="1">
+  <Block BlockType="SubSystem" Name="GTG&#xA;A-331-07A-GT01" SID="123">
     <P Name="Tag">PSATblock</P>
     <P Name="Description">Machines</P>
     <PortCounts rconn="1"/>
-    <P Name="Position">[1393, 85, 1427, 120]</P>
-    <P Name="ZOrder">1</P>
+    <P Name="Position">[1263, 250, 1297, 285]</P>
+    <P Name="ZOrder">99</P>
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
@@ -2736,14 +2735,63 @@ plot(1.4+0.45*xg,0.3+0.45*yg)
         <Callback>fm_block</Callback>
       </MaskParameter>
     </Mask>
-    <System Ref="system_1"/>
+    <System Ref="system_123"/>
   </Block>
-  <Block BlockType="PMComponent" Name="Gen 1 Bus" SID="78">
+  <Block BlockType="PMComponent" Name="Gen 1 Bus" SID="127">
+    <P Name="Tag">PSATblock</P>
+    <P Name="Description">Connection</P>
+    <PortCounts lconn="2" rconn="1"/>
+    <P Name="Position">[286, 335, 359, 340]</P>
+    <P Name="ZOrder">129</P>
+    <P Name="BlockRotation">270</P>
+    <P Name="BlockMirror">on</P>
+    <P Name="BackgroundColor">black</P>
+    <P Name="NameLocation">left</P>
+    <P Name="PhysicalDomain">psatdomain</P>
+    <P Name="LeftPortType">p1</P>
+    <P Name="RightPortType">p1</P>
+    <P Name="LConnTagsString">__newl0|__newl1</P>
+    <P Name="RConnTagsString">__newr0</P>
+    <Mask SelfModifiable="on">
+      <Type>Bus</Type>
+      <Display IconFrame="off" IconRotate="port">plot([0 1 1 0 0],[0 0 1 1 0])</Display>
+      <Description>Bus block.</Description>
+      <Initialization>fm_inout
+
+</Initialization>
+      <MaskParameter Name="in" Type="edit">
+        <Prompt>Number of inputs:</Prompt>
+        <Value>2</Value>
+      </MaskParameter>
+      <MaskParameter Name="out" Type="edit">
+        <Prompt>Number of outputs:</Prompt>
+        <Value>1</Value>
+      </MaskParameter>
+      <MaskParameter Name="p2q" Type="edit">
+        <Prompt>Voltage Rating [kV]</Prompt>
+        <Value>11</Value>
+      </MaskParameter>
+      <MaskParameter Name="p3_4q" Type="edit">
+        <Prompt>Voltage initial guess [p.u.  rad]</Prompt>
+        <Value>[1.00  0.00]</Value>
+      </MaskParameter>
+      <MaskParameter Name="p5q" Type="edit">
+        <Prompt>Area number</Prompt>
+        <Value>1</Value>
+        <Callback>fm_block</Callback>
+      </MaskParameter>
+      <MaskParameter Name="p6q" Type="edit">
+        <Prompt>Region number</Prompt>
+        <Value>1</Value>
+      </MaskParameter>
+    </Mask>
+  </Block>
+  <Block BlockType="PMComponent" Name="Gen 2 Bus" SID="128">
     <P Name="Tag">PSATblock</P>
     <P Name="Description">Connection</P>
     <PortCounts lconn="1" rconn="1"/>
-    <P Name="Position">[414, 170, 486, 175]</P>
-    <P Name="ZOrder">44</P>
+    <P Name="Position">[514, 335, 586, 340]</P>
+    <P Name="ZOrder">130</P>
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="BackgroundColor">black</P>
@@ -2770,7 +2818,7 @@ plot(1.4+0.45*xg,0.3+0.45*yg)
       </MaskParameter>
       <MaskParameter Name="p2q" Type="edit">
         <Prompt>Voltage Rating [kV]</Prompt>
-        <Value>12</Value>
+        <Value>11</Value>
       </MaskParameter>
       <MaskParameter Name="p3_4q" Type="edit">
         <Prompt>Voltage initial guess [p.u.  rad]</Prompt>
@@ -2787,12 +2835,12 @@ plot(1.4+0.45*xg,0.3+0.45*yg)
       </MaskParameter>
     </Mask>
   </Block>
-  <Block BlockType="PMComponent" Name="Gen 2 Bus" SID="79">
+  <Block BlockType="PMComponent" Name="Gen 3 Bus" SID="129">
     <P Name="Tag">PSATblock</P>
     <P Name="Description">Connection</P>
     <PortCounts lconn="1" rconn="1"/>
-    <P Name="Position">[644, 170, 716, 175]</P>
-    <P Name="ZOrder">45</P>
+    <P Name="Position">[1019, 330, 1091, 335]</P>
+    <P Name="ZOrder">131</P>
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="BackgroundColor">black</P>
@@ -2819,7 +2867,7 @@ plot(1.4+0.45*xg,0.3+0.45*yg)
       </MaskParameter>
       <MaskParameter Name="p2q" Type="edit">
         <Prompt>Voltage Rating [kV]</Prompt>
-        <Value>13</Value>
+        <Value>11</Value>
       </MaskParameter>
       <MaskParameter Name="p3_4q" Type="edit">
         <Prompt>Voltage initial guess [p.u.  rad]</Prompt>
@@ -2836,12 +2884,12 @@ plot(1.4+0.45*xg,0.3+0.45*yg)
       </MaskParameter>
     </Mask>
   </Block>
-  <Block BlockType="PMComponent" Name="Gen 3 Bus" SID="80">
+  <Block BlockType="PMComponent" Name="Gen 4 Bus" SID="130">
     <P Name="Tag">PSATblock</P>
     <P Name="Description">Connection</P>
     <PortCounts lconn="1" rconn="1"/>
-    <P Name="Position">[1149, 165, 1221, 170]</P>
-    <P Name="ZOrder">46</P>
+    <P Name="Position">[1244, 330, 1316, 335]</P>
+    <P Name="ZOrder">132</P>
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="BackgroundColor">black</P>
@@ -2868,7 +2916,7 @@ plot(1.4+0.45*xg,0.3+0.45*yg)
       </MaskParameter>
       <MaskParameter Name="p2q" Type="edit">
         <Prompt>Voltage Rating [kV]</Prompt>
-        <Value>14</Value>
+        <Value>11</Value>
       </MaskParameter>
       <MaskParameter Name="p3_4q" Type="edit">
         <Prompt>Voltage initial guess [p.u.  rad]</Prompt>
@@ -2885,110 +2933,12 @@ plot(1.4+0.45*xg,0.3+0.45*yg)
       </MaskParameter>
     </Mask>
   </Block>
-  <Block BlockType="PMComponent" Name="Gen 4 Bus" SID="81">
+  <Block BlockType="PMComponent" Name="K1 Bus" SID="131">
     <P Name="Tag">PSATblock</P>
     <P Name="Description">Connection</P>
     <PortCounts lconn="1" rconn="1"/>
-    <P Name="Position">[1374, 165, 1446, 170]</P>
-    <P Name="ZOrder">47</P>
-    <P Name="BlockRotation">270</P>
-    <P Name="BlockMirror">on</P>
-    <P Name="BackgroundColor">black</P>
-    <P Name="NameLocation">left</P>
-    <P Name="PhysicalDomain">psatdomain</P>
-    <P Name="LeftPortType">p1</P>
-    <P Name="RightPortType">p1</P>
-    <P Name="LConnTagsString">__newl0</P>
-    <P Name="RConnTagsString">__newr0</P>
-    <Mask SelfModifiable="on">
-      <Type>Bus</Type>
-      <Display IconFrame="off" IconRotate="port">plot([0 1 1 0 0],[0 0 1 1 0])</Display>
-      <Description>Bus block.</Description>
-      <Initialization>fm_inout
-
-</Initialization>
-      <MaskParameter Name="in" Type="edit">
-        <Prompt>Number of inputs:</Prompt>
-        <Value>1</Value>
-      </MaskParameter>
-      <MaskParameter Name="out" Type="edit">
-        <Prompt>Number of outputs:</Prompt>
-        <Value>1</Value>
-      </MaskParameter>
-      <MaskParameter Name="p2q" Type="edit">
-        <Prompt>Voltage Rating [kV]</Prompt>
-        <Value>15</Value>
-      </MaskParameter>
-      <MaskParameter Name="p3_4q" Type="edit">
-        <Prompt>Voltage initial guess [p.u.  rad]</Prompt>
-        <Value>[1.00  0.00]</Value>
-      </MaskParameter>
-      <MaskParameter Name="p5q" Type="edit">
-        <Prompt>Area number</Prompt>
-        <Value>1</Value>
-        <Callback>fm_block</Callback>
-      </MaskParameter>
-      <MaskParameter Name="p6q" Type="edit">
-        <Prompt>Region number</Prompt>
-        <Value>1</Value>
-      </MaskParameter>
-    </Mask>
-  </Block>
-  <Block BlockType="PMComponent" Name="K1 Bus" SID="84">
-    <P Name="Tag">PSATblock</P>
-    <P Name="Description">Connection</P>
-    <PortCounts lconn="1" rconn="1"/>
-    <P Name="Position">[779, 1075, 851, 1080]</P>
-    <P Name="ZOrder">50</P>
-    <P Name="BlockRotation">270</P>
-    <P Name="BlockMirror">on</P>
-    <P Name="BackgroundColor">black</P>
-    <P Name="NameLocation">left</P>
-    <P Name="PhysicalDomain">psatdomain</P>
-    <P Name="LeftPortType">p1</P>
-    <P Name="RightPortType">p1</P>
-    <P Name="LConnTagsString">__newl0</P>
-    <P Name="RConnTagsString">__newr0</P>
-    <Mask SelfModifiable="on">
-      <Type>Bus</Type>
-      <Display IconFrame="off" IconRotate="port">plot([0 1 1 0 0],[0 0 1 1 0])</Display>
-      <Description>Bus block.</Description>
-      <Initialization>fm_inout
-
-</Initialization>
-      <MaskParameter Name="in" Type="edit">
-        <Prompt>Number of inputs:</Prompt>
-        <Value>1</Value>
-      </MaskParameter>
-      <MaskParameter Name="out" Type="edit">
-        <Prompt>Number of outputs:</Prompt>
-        <Value>1</Value>
-      </MaskParameter>
-      <MaskParameter Name="p2q" Type="edit">
-        <Prompt>Voltage Rating [kV]</Prompt>
-        <Value>6.6</Value>
-      </MaskParameter>
-      <MaskParameter Name="p3_4q" Type="edit">
-        <Prompt>Voltage initial guess [p.u.  rad]</Prompt>
-        <Value>[1.00  0.00]</Value>
-      </MaskParameter>
-      <MaskParameter Name="p5q" Type="edit">
-        <Prompt>Area number</Prompt>
-        <Value>1</Value>
-        <Callback>fm_block</Callback>
-      </MaskParameter>
-      <MaskParameter Name="p6q" Type="edit">
-        <Prompt>Region number</Prompt>
-        <Value>1</Value>
-      </MaskParameter>
-    </Mask>
-  </Block>
-  <Block BlockType="PMComponent" Name="K2 Bus" SID="85">
-    <P Name="Tag">PSATblock</P>
-    <P Name="Description">Connection</P>
-    <PortCounts lconn="1" rconn="1"/>
-    <P Name="Position">[974, 1075, 1046, 1080]</P>
-    <P Name="ZOrder">51</P>
+    <P Name="Position">[649, 1240, 721, 1245]</P>
+    <P Name="ZOrder">134</P>
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="BackgroundColor">black</P>
@@ -3032,12 +2982,12 @@ plot(1.4+0.45*xg,0.3+0.45*yg)
       </MaskParameter>
     </Mask>
   </Block>
-  <Block BlockType="PMComponent" Name="K3 Bus" SID="82">
+  <Block BlockType="PMComponent" Name="K2 Bus" SID="132">
     <P Name="Tag">PSATblock</P>
     <P Name="Description">Connection</P>
     <PortCounts lconn="1" rconn="1"/>
-    <P Name="Position">[529, 1075, 601, 1080]</P>
-    <P Name="ZOrder">48</P>
+    <P Name="Position">[844, 1240, 916, 1245]</P>
+    <P Name="ZOrder">135</P>
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="BackgroundColor">black</P>
@@ -3081,12 +3031,12 @@ plot(1.4+0.45*xg,0.3+0.45*yg)
       </MaskParameter>
     </Mask>
   </Block>
-  <Block BlockType="PMComponent" Name="K4 Bus" SID="86">
+  <Block BlockType="PMComponent" Name="K3 Bus" SID="133">
     <P Name="Tag">PSATblock</P>
     <P Name="Description">Connection</P>
     <PortCounts lconn="1" rconn="1"/>
-    <P Name="Position">[1169, 1075, 1241, 1080]</P>
-    <P Name="ZOrder">52</P>
+    <P Name="Position">[399, 1240, 471, 1245]</P>
+    <P Name="ZOrder">133</P>
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="BackgroundColor">black</P>
@@ -3130,12 +3080,61 @@ plot(1.4+0.45*xg,0.3+0.45*yg)
       </MaskParameter>
     </Mask>
   </Block>
-  <Block BlockType="PMComponent" Name="Line1" SID="87">
+  <Block BlockType="PMComponent" Name="K4 Bus" SID="134">
+    <P Name="Tag">PSATblock</P>
+    <P Name="Description">Connection</P>
+    <PortCounts lconn="1" rconn="1"/>
+    <P Name="Position">[1039, 1240, 1111, 1245]</P>
+    <P Name="ZOrder">136</P>
+    <P Name="BlockRotation">270</P>
+    <P Name="BlockMirror">on</P>
+    <P Name="BackgroundColor">black</P>
+    <P Name="NameLocation">left</P>
+    <P Name="PhysicalDomain">psatdomain</P>
+    <P Name="LeftPortType">p1</P>
+    <P Name="RightPortType">p1</P>
+    <P Name="LConnTagsString">__newl0</P>
+    <P Name="RConnTagsString">__newr0</P>
+    <Mask SelfModifiable="on">
+      <Type>Bus</Type>
+      <Display IconFrame="off" IconRotate="port">plot([0 1 1 0 0],[0 0 1 1 0])</Display>
+      <Description>Bus block.</Description>
+      <Initialization>fm_inout
+
+</Initialization>
+      <MaskParameter Name="in" Type="edit">
+        <Prompt>Number of inputs:</Prompt>
+        <Value>1</Value>
+      </MaskParameter>
+      <MaskParameter Name="out" Type="edit">
+        <Prompt>Number of outputs:</Prompt>
+        <Value>1</Value>
+      </MaskParameter>
+      <MaskParameter Name="p2q" Type="edit">
+        <Prompt>Voltage Rating [kV]</Prompt>
+        <Value>6.6</Value>
+      </MaskParameter>
+      <MaskParameter Name="p3_4q" Type="edit">
+        <Prompt>Voltage initial guess [p.u.  rad]</Prompt>
+        <Value>[1.00  0.00]</Value>
+      </MaskParameter>
+      <MaskParameter Name="p5q" Type="edit">
+        <Prompt>Area number</Prompt>
+        <Value>1</Value>
+        <Callback>fm_block</Callback>
+      </MaskParameter>
+      <MaskParameter Name="p6q" Type="edit">
+        <Prompt>Region number</Prompt>
+        <Value>1</Value>
+      </MaskParameter>
+    </Mask>
+  </Block>
+  <Block BlockType="PMComponent" Name="Line1" SID="135">
     <P Name="Tag">PSATblock</P>
     <P Name="Description">Power Flow</P>
     <PortCounts lconn="1" rconn="1"/>
-    <P Name="Position">[559, 965, 571, 1035]</P>
-    <P Name="ZOrder">53</P>
+    <P Name="Position">[429, 1130, 441, 1200]</P>
+    <P Name="ZOrder">137</P>
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
@@ -3188,12 +3187,12 @@ plot(10+x,y,[0 10],[1 1],[0 10],[-1 -1])</Display>
       </MaskParameter>
     </Mask>
   </Block>
-  <Block BlockType="PMComponent" Name="Line2" SID="88">
+  <Block BlockType="PMComponent" Name="Line2" SID="136">
     <P Name="Tag">PSATblock</P>
     <P Name="Description">Power Flow</P>
     <PortCounts lconn="1" rconn="1"/>
-    <P Name="Position">[809, 970, 821, 1040]</P>
-    <P Name="ZOrder">54</P>
+    <P Name="Position">[679, 1135, 691, 1205]</P>
+    <P Name="ZOrder">138</P>
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
@@ -3246,12 +3245,12 @@ plot(10+x,y,[0 10],[1 1],[0 10],[-1 -1])</Display>
       </MaskParameter>
     </Mask>
   </Block>
-  <Block BlockType="PMComponent" Name="Line3" SID="89">
+  <Block BlockType="PMComponent" Name="Line3" SID="137">
     <P Name="Tag">PSATblock</P>
     <P Name="Description">Power Flow</P>
     <PortCounts lconn="1" rconn="1"/>
-    <P Name="Position">[1004, 975, 1016, 1045]</P>
-    <P Name="ZOrder">55</P>
+    <P Name="Position">[874, 1140, 886, 1210]</P>
+    <P Name="ZOrder">139</P>
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
@@ -3304,12 +3303,12 @@ plot(10+x,y,[0 10],[1 1],[0 10],[-1 -1])</Display>
       </MaskParameter>
     </Mask>
   </Block>
-  <Block BlockType="PMComponent" Name="Line4" SID="90">
+  <Block BlockType="PMComponent" Name="Line4" SID="138">
     <P Name="Tag">PSATblock</P>
     <P Name="Description">Power Flow</P>
     <PortCounts lconn="1" rconn="1"/>
-    <P Name="Position">[1199, 975, 1211, 1045]</P>
-    <P Name="ZOrder">56</P>
+    <P Name="Position">[1069, 1140, 1081, 1210]</P>
+    <P Name="ZOrder">140</P>
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
@@ -3362,12 +3361,12 @@ plot(10+x,y,[0 10],[1 1],[0 10],[-1 -1])</Display>
       </MaskParameter>
     </Mask>
   </Block>
-  <Block BlockType="SubSystem" Name="STG&#xA;A-331-03A-SG01" SID="61">
+  <Block BlockType="SubSystem" Name="STG&#xA;A-331-03A-SG01" SID="139">
     <P Name="Tag">PSATblock</P>
     <P Name="Description">Machines</P>
     <PortCounts rconn="1"/>
-    <P Name="Position">[433, 85, 467, 120]</P>
-    <P Name="ZOrder">36</P>
+    <P Name="Position">[303, 250, 337, 285]</P>
+    <P Name="ZOrder">121</P>
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
@@ -3519,14 +3518,14 @@ plot(1.4+0.45*xg,0.3+0.45*yg)
         </DialogControl>
       </DialogControl>
     </Mask>
-    <System Ref="system_61"/>
+    <System Ref="system_139"/>
   </Block>
-  <Block BlockType="SubSystem" Name="STG&#xA;A-331-03A-SG02" SID="65">
+  <Block BlockType="SubSystem" Name="STG&#xA;A-331-03A-SG02" SID="143">
     <P Name="Tag">PSATblock</P>
     <P Name="Description">Machines</P>
     <PortCounts rconn="1"/>
-    <P Name="Position">[663, 85, 697, 120]</P>
-    <P Name="ZOrder">37</P>
+    <P Name="Position">[533, 250, 567, 285]</P>
+    <P Name="ZOrder">122</P>
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
@@ -3622,14 +3621,14 @@ plot(1.4+0.45*xg,0.3+0.45*yg)
         <Callback>fm_block</Callback>
       </MaskParameter>
     </Mask>
-    <System Ref="system_65"/>
+    <System Ref="system_143"/>
   </Block>
-  <Block BlockType="SubSystem" Name="STG&#xA;A-331-03A-SG03" SID="69">
+  <Block BlockType="SubSystem" Name="STG&#xA;A-331-03A-SG03" SID="147">
     <P Name="Tag">PSATblock</P>
     <P Name="Description">Machines</P>
     <PortCounts rconn="1"/>
-    <P Name="Position">[1168, 85, 1202, 120]</P>
-    <P Name="ZOrder">38</P>
+    <P Name="Position">[1038, 250, 1072, 285]</P>
+    <P Name="ZOrder">123</P>
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
@@ -3725,14 +3724,14 @@ plot(1.4+0.45*xg,0.3+0.45*yg)
         <Callback>fm_block</Callback>
       </MaskParameter>
     </Mask>
-    <System Ref="system_69"/>
+    <System Ref="system_147"/>
   </Block>
-  <Block BlockType="PMComponent" Name="Slack" SID="77">
+  <Block BlockType="PMComponent" Name="Slack" SID="151">
     <P Name="Tag">PSATblock</P>
     <P Name="Description">Power Flow</P>
     <PortCounts rconn="1"/>
-    <P Name="Position">[838, 265, 872, 300]</P>
-    <P Name="ZOrder">43</P>
+    <P Name="Position">[373, 255, 397, 280]</P>
+    <P Name="ZOrder">128</P>
     <P Name="BlockRotation">270</P>
     <P Name="BlockMirror">on</P>
     <P Name="NameLocation">left</P>
@@ -3753,7 +3752,7 @@ theta = theta_des</Description>
 </Initialization>
       <MaskParameter Name="p2_3q" Type="edit">
         <Prompt>Power and Voltage Ratings [MVA, kV]</Prompt>
-        <Value>[40  33]</Value>
+        <Value>[37.5  11]</Value>
       </MaskParameter>
       <MaskParameter Name="p4q" Type="edit">
         <Prompt>Voltage Magnitude [p.u.]</Prompt>
@@ -3792,224 +3791,226 @@ theta = theta_des</Description>
     </Mask>
   </Block>
   <Line LineType="Connection">
-    <P Name="ZOrder">1</P>
-    <P Name="Src">21#rconn:1</P>
-    <P Name="Points">[0, 10; 30, 0]</P>
-    <P Name="Dst">25#lconn:1</P>
+    <P Name="ZOrder">93</P>
+    <P Name="Src">107#lconn:1</P>
+    <P Name="Dst">131#rconn:1</P>
   </Line>
   <Line LineType="Connection">
-    <P Name="ZOrder">2</P>
-    <P Name="Src">22#rconn:1</P>
-    <P Name="Points">[0, 10; -115, 0]</P>
-    <P Name="Dst">25#lconn:2</P>
+    <P Name="ZOrder">94</P>
+    <P Name="Src">106#lconn:1</P>
+    <P Name="Dst">130#rconn:1</P>
   </Line>
   <Line LineType="Connection">
-    <P Name="ZOrder">35</P>
-    <P Name="Src">73#lconn:1</P>
-    <P Name="Dst">79#rconn:1</P>
+    <P Name="ZOrder">95</P>
+    <P Name="Src">122#lconn:1</P>
+    <P Name="Dst">100#rconn:2</P>
   </Line>
   <Line LineType="Connection">
-    <P Name="ZOrder">5</P>
-    <P Name="Src">17#rconn:1</P>
-    <P Name="Dst">21#lconn:1</P>
+    <P Name="ZOrder">96</P>
+    <P Name="Src">138#rconn:1</P>
+    <P Name="Dst">134#lconn:1</P>
   </Line>
   <Line LineType="Connection">
-    <P Name="ZOrder">36</P>
-    <P Name="Src">73#rconn:1</P>
-    <P Name="Dst">22#lconn:1</P>
+    <P Name="ZOrder">97</P>
+    <P Name="Src">113#lconn:1</P>
+    <P Name="Dst">100#rconn:3</P>
   </Line>
   <Line LineType="Connection">
-    <P Name="ZOrder">37</P>
-    <P Name="Src">74#lconn:1</P>
-    <P Name="Dst">80#rconn:1</P>
+    <P Name="ZOrder">98</P>
+    <P Name="Src">103#rconn:1</P>
+    <P Name="Dst">111#lconn:1</P>
   </Line>
   <Line LineType="Connection">
-    <P Name="ZOrder">40</P>
-    <P Name="Src">75#lconn:1</P>
-    <P Name="Dst">81#rconn:1</P>
-  </Line>
-  <Line LineType="Connection">
-    <P Name="ZOrder">38</P>
-    <P Name="Src">74#rconn:1</P>
-    <P Name="Dst">23#lconn:1</P>
-  </Line>
-  <Line LineType="Connection">
-    <P Name="ZOrder">39</P>
-    <P Name="Src">75#rconn:1</P>
-    <P Name="Dst">24#lconn:1</P>
-  </Line>
-  <Line LineType="Connection">
-    <P Name="ZOrder">11</P>
-    <P Name="Src">23#rconn:1</P>
-    <P Name="Points">[0, 10; 45, 0]</P>
-    <P Name="Dst">27#lconn:1</P>
-  </Line>
-  <Line LineType="Connection">
-    <P Name="ZOrder">12</P>
-    <P Name="Src">24#rconn:1</P>
-    <P Name="Points">[0, 10; -55, 0]</P>
-    <P Name="Dst">27#lconn:2</P>
-  </Line>
-  <Line LineType="Connection">
-    <P Name="ZOrder">16</P>
-    <P Name="Src">25#rconn:1</P>
-    <P Name="Dst">44#lconn:1</P>
-  </Line>
-  <Line LineType="Connection">
-    <P Name="ZOrder">17</P>
-    <P Name="Src">44#rconn:1</P>
-    <P Name="Dst">45#lconn:1</P>
-  </Line>
-  <Line LineType="Connection">
-    <P Name="ZOrder">18</P>
-    <P Name="Src">27#rconn:1</P>
-    <P Name="Dst">48#lconn:1</P>
-  </Line>
-  <Line LineType="Connection">
-    <P Name="ZOrder">41</P>
-    <P Name="Src">76#lconn:1</P>
-    <P Name="Dst">48#rconn:1</P>
-  </Line>
-  <Line LineType="Connection">
-    <P Name="ZOrder">20</P>
-    <P Name="Src">45#rconn:1</P>
-    <P Name="Dst">50#lconn:1</P>
-  </Line>
-  <Line LineType="Connection">
-    <P Name="ZOrder">42</P>
-    <P Name="Src">76#rconn:1</P>
-    <P Name="Dst">51#lconn:1</P>
-  </Line>
-  <Line LineType="Connection">
-    <P Name="ZOrder">22</P>
-    <P Name="Src">52#lconn:1</P>
-    <P Name="Points">[0, -37; -285, 0]</P>
-    <P Name="Dst">50#rconn:1</P>
-  </Line>
-  <Line LineType="Connection">
-    <P Name="ZOrder">23</P>
-    <P Name="Src">52#lconn:2</P>
-    <P Name="Points">[0, -37; 315, 0]</P>
-    <P Name="Dst">51#rconn:1</P>
-  </Line>
-  <Line LineType="Connection">
-    <P Name="ZOrder">24</P>
-    <P Name="Src">53#lconn:1</P>
-    <P Name="Dst">52#rconn:1</P>
-  </Line>
-  <Line LineType="Connection">
-    <P Name="ZOrder">25</P>
-    <P Name="Src">54#lconn:1</P>
-    <P Name="Dst">52#rconn:2</P>
-  </Line>
-  <Line LineType="Connection">
-    <P Name="ZOrder">26</P>
-    <P Name="Src">55#lconn:1</P>
-    <P Name="Dst">52#rconn:3</P>
-  </Line>
-  <Line LineType="Connection">
-    <P Name="ZOrder">27</P>
-    <P Name="Src">56#lconn:1</P>
-    <P Name="Dst">52#rconn:4</P>
-  </Line>
-  <Line LineType="Connection">
-    <P Name="ZOrder">68</P>
-    <P Name="Src">84#lconn:1</P>
-    <P Name="Dst">88#rconn:1</P>
-  </Line>
-  <Line LineType="Connection">
-    <P Name="ZOrder">69</P>
-    <P Name="Src">85#rconn:1</P>
-    <P Name="Dst">59#lconn:1</P>
-  </Line>
-  <Line LineType="Connection">
-    <P Name="ZOrder">70</P>
-    <P Name="Src">86#rconn:1</P>
-    <P Name="Dst">60#lconn:1</P>
-  </Line>
-  <Line LineType="Connection">
-    <P Name="ZOrder">43</P>
-    <P Name="Src">77#rconn:1</P>
-    <P Name="Points">[0, 155]</P>
-    <P Name="Dst">25#lconn:3</P>
-  </Line>
-  <Line LineType="Connection">
-    <P Name="ZOrder">62</P>
-    <P Name="Src">78#rconn:1</P>
-    <P Name="Dst">17#lconn:1</P>
-  </Line>
-  <Line LineType="Connection">
-    <P Name="ZOrder">66</P>
-    <P Name="Src">57#lconn:1</P>
-    <P Name="Dst">82#rconn:1</P>
-  </Line>
-  <Line LineType="Connection">
-    <P Name="ZOrder">71</P>
-    <P Name="Src">87#lconn:1</P>
-    <P Name="Points">[0, -26; 250, 0]</P>
-    <P Name="Dst">53#rconn:1</P>
-  </Line>
-  <Line LineType="Connection">
-    <P Name="ZOrder">29</P>
-    <P Name="Src">58#lconn:1</P>
-    <P Name="Dst">84#rconn:1</P>
-  </Line>
-  <Line LineType="Connection">
-    <P Name="ZOrder">30</P>
-    <P Name="Src">55#rconn:1</P>
-    <P Name="Points">[0, 47; 65, 0]</P>
-    <P Name="Dst">89#lconn:1</P>
-  </Line>
-  <Line LineType="Connection">
-    <P Name="ZOrder">74</P>
-    <P Name="Src">90#rconn:1</P>
-    <P Name="Dst">86#lconn:1</P>
-  </Line>
-  <Line LineType="Connection">
-    <P Name="ZOrder">67</P>
-    <P Name="Src">82#lconn:1</P>
-    <P Name="Dst">87#rconn:1</P>
-  </Line>
-  <Line LineType="Connection">
-    <P Name="ZOrder">72</P>
-    <P Name="Src">88#lconn:1</P>
+    <P Name="ZOrder">99</P>
+    <P Name="Src">136#lconn:1</P>
     <P Name="Points">[0, -1; 65, 0]</P>
-    <P Name="Dst">54#rconn:1</P>
+    <P Name="Dst">122#rconn:1</P>
   </Line>
   <Line LineType="Connection">
-    <P Name="ZOrder">73</P>
-    <P Name="Src">89#rconn:1</P>
-    <P Name="Dst">85#lconn:1</P>
+    <P Name="ZOrder">100</P>
+    <P Name="Src">132#rconn:1</P>
+    <P Name="Dst">108#lconn:1</P>
   </Line>
   <Line LineType="Connection">
-    <P Name="ZOrder">31</P>
-    <P Name="Src">56#rconn:1</P>
-    <P Name="Points">[0, 20; 195, 0]</P>
-    <P Name="Dst">90#lconn:1</P>
+    <P Name="ZOrder">101</P>
+    <P Name="Src">105#lconn:1</P>
+    <P Name="Dst">129#rconn:1</P>
   </Line>
   <Line LineType="Connection">
-    <P Name="ZOrder">88</P>
-    <P Name="Src">61#rconn:1</P>
-    <P Name="Dst">78#lconn:1</P>
+    <P Name="ZOrder">102</P>
+    <P Name="Src">139#rconn:1</P>
+    <P Name="Points">[0, 20]</P>
+    <P Name="Dst">127#lconn:1</P>
   </Line>
   <Line LineType="Connection">
-    <P Name="ZOrder">89</P>
-    <P Name="Src">65#rconn:1</P>
-    <P Name="Dst">79#lconn:1</P>
+    <P Name="ZOrder">103</P>
+    <P Name="Src">109#lconn:1</P>
+    <P Name="Dst">133#rconn:1</P>
   </Line>
   <Line LineType="Connection">
-    <P Name="ZOrder">90</P>
-    <P Name="Src">69#rconn:1</P>
-    <P Name="Dst">80#lconn:1</P>
+    <P Name="ZOrder">104</P>
+    <P Name="Src">137#rconn:1</P>
+    <P Name="Dst">132#lconn:1</P>
   </Line>
   <Line LineType="Connection">
-    <P Name="ZOrder">91</P>
-    <P Name="Src">1#rconn:1</P>
-    <P Name="Dst">81#lconn:1</P>
+    <P Name="ZOrder">105</P>
+    <P Name="Src">143#rconn:1</P>
+    <P Name="Dst">128#lconn:1</P>
   </Line>
-  <Annotation SID="96">
-    <P Name="Name">101-HSW-A03</P>
-    <P Name="Position">[1017, 413, 1527, 563]</P>
+  <Line LineType="Connection">
+    <P Name="ZOrder">106</P>
+    <P Name="Src">133#lconn:1</P>
+    <P Name="Dst">135#rconn:1</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">107</P>
+    <P Name="Src">100#lconn:1</P>
+    <P Name="Points">[0, -37; -285, 0]</P>
+    <P Name="Dst">119#rconn:1</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">108</P>
+    <P Name="Src">113#rconn:1</P>
+    <P Name="Points">[0, 47; 65, 0]</P>
+    <P Name="Dst">137#lconn:1</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">109</P>
+    <P Name="Src">102#lconn:1</P>
+    <P Name="Dst">118#rconn:1</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">110</P>
+    <P Name="Src">104#lconn:1</P>
+    <P Name="Dst">128#rconn:1</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">111</P>
+    <P Name="Src">102#rconn:1</P>
+    <P Name="Dst">120#lconn:1</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">112</P>
+    <P Name="Src">116#rconn:1</P>
+    <P Name="Points">[0, 10; -55, 0]</P>
+    <P Name="Dst">99#lconn:2</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">113</P>
+    <P Name="Src">104#rconn:1</P>
+    <P Name="Dst">112#lconn:1</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">114</P>
+    <P Name="Src">106#rconn:1</P>
+    <P Name="Dst">116#lconn:1</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">115</P>
+    <P Name="Src">127#rconn:1</P>
+    <P Name="Points">[-5, 0]</P>
+    <P Name="Dst">103#lconn:1</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">116</P>
+    <P Name="Src">115#rconn:1</P>
+    <P Name="Points">[0, 10; 45, 0]</P>
+    <P Name="Dst">99#lconn:1</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">117</P>
+    <P Name="Src">99#rconn:1</P>
+    <P Name="Dst">118#lconn:1</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">118</P>
+    <P Name="Src">101#rconn:1</P>
+    <P Name="Dst">119#lconn:1</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">119</P>
+    <P Name="Src">98#rconn:1</P>
+    <P Name="Dst">117#lconn:1</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">120</P>
+    <P Name="Src">135#lconn:1</P>
+    <P Name="Points">[0, -26; 250, 0]</P>
+    <P Name="Dst">121#rconn:1</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">121</P>
+    <P Name="Src">131#lconn:1</P>
+    <P Name="Dst">136#rconn:1</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">122</P>
+    <P Name="Src">117#rconn:1</P>
+    <P Name="Dst">101#lconn:1</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">123</P>
+    <P Name="Src">151#rconn:1</P>
+    <P Name="Points">[0, 25]</P>
+    <P Name="Dst">127#lconn:2</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">124</P>
+    <P Name="Src">147#rconn:1</P>
+    <P Name="Dst">129#lconn:1</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">125</P>
+    <P Name="Src">114#lconn:1</P>
+    <P Name="Dst">100#rconn:4</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">126</P>
+    <P Name="Src">114#rconn:1</P>
+    <P Name="Points">[195, 0]</P>
+    <P Name="Dst">138#lconn:1</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">127</P>
+    <P Name="Src">123#rconn:1</P>
+    <P Name="Dst">130#lconn:1</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">128</P>
+    <P Name="Src">121#lconn:1</P>
+    <P Name="Dst">100#rconn:1</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">129</P>
+    <P Name="Src">134#rconn:1</P>
+    <P Name="Dst">110#lconn:1</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">130</P>
+    <P Name="Src">112#rconn:1</P>
+    <P Name="Points">[0, 10; -50, 0]</P>
+    <P Name="Dst">98#lconn:2</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">131</P>
+    <P Name="Src">100#lconn:2</P>
+    <P Name="Points">[0, -37; 315, 0]</P>
+    <P Name="Dst">120#rconn:1</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">132</P>
+    <P Name="Src">111#rconn:1</P>
+    <P Name="Points">[0, 10; 50, 0]</P>
+    <P Name="Dst">98#lconn:1</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">133</P>
+    <P Name="Src">105#rconn:1</P>
+    <P Name="Dst">115#lconn:1</P>
+  </Line>
+  <Annotation SID="152">
+    <P Name="Name">POWER PLANT 331 AREA</P>
+    <P Name="Position">[178, 196, 651, 496]</P>
     <P Name="InternalMargins">[0, 0, 0, 0]</P>
     <P Name="FixedHeight">on</P>
     <P Name="FixedWidth">on</P>
@@ -4017,12 +4018,12 @@ theta = theta_des</Description>
     <P Name="BackgroundColor">[0.800000, 0.800000, 0.800000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">144</P>
+    <P Name="ZOrder">182</P>
     <P Name="FontSize">12</P>
   </Annotation>
-  <Annotation SID="95">
+  <Annotation SID="153">
     <P Name="Name">101-HSW-A02</P>
-    <P Name="Position">[310, 412, 781, 565]</P>
+    <P Name="Position">[180, 577, 651, 730]</P>
     <P Name="InternalMargins">[0, 0, 0, 0]</P>
     <P Name="FixedHeight">on</P>
     <P Name="FixedWidth">on</P>
@@ -4030,36 +4031,36 @@ theta = theta_des</Description>
     <P Name="BackgroundColor">[0.800000, 0.800000, 0.800000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">143</P>
+    <P Name="ZOrder">183</P>
     <P Name="FontSize">12</P>
   </Annotation>
-  <Annotation SID="94">
+  <Annotation SID="154">
+    <P Name="Name">POWER PLANT 331 AREA</P>
+    <P Name="Position">[886, 195, 1398, 511]</P>
+    <P Name="InternalMargins">[0, 0, 0, 0]</P>
+    <P Name="FixedWidth">on</P>
+    <P Name="ForegroundColor">[0.800000, 0.800000, 0.800000]</P>
+    <P Name="BackgroundColor">[0.800000, 0.800000, 0.800000]</P>
+    <P Name="DropShadow">on</P>
+    <P Name="AnnotationType">area_annotation</P>
+    <P Name="ZOrder">181</P>
+    <P Name="FontSize">12</P>
+  </Annotation>
+  <Annotation SID="155">
     <P Name="Name">101-HSW-C01</P>
-    <P Name="Position">[602, 796, 1195, 914]</P>
+    <P Name="Position">[472, 961, 1065, 1079]</P>
     <P Name="InternalMargins">[0, 0, 0, 0]</P>
     <P Name="FixedWidth">on</P>
     <P Name="ForegroundColor">[0.800000, 0.800000, 0.800000]</P>
     <P Name="BackgroundColor">[0.800000, 0.800000, 0.800000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">145</P>
+    <P Name="ZOrder">185</P>
     <P Name="FontSize">12</P>
   </Annotation>
-  <Annotation SID="93">
-    <P Name="Name">POWER PLANT 331 AREA</P>
-    <P Name="Position">[1016, 30, 1528, 346]</P>
-    <P Name="InternalMargins">[0, 0, 0, 0]</P>
-    <P Name="FixedWidth">on</P>
-    <P Name="ForegroundColor">[0.800000, 0.800000, 0.800000]</P>
-    <P Name="BackgroundColor">[0.800000, 0.800000, 0.800000]</P>
-    <P Name="DropShadow">on</P>
-    <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">141</P>
-    <P Name="FontSize">12</P>
-  </Annotation>
-  <Annotation SID="91">
-    <P Name="Name">POWER PLANT 331 AREA</P>
-    <P Name="Position">[308, 31, 781, 331]</P>
+  <Annotation SID="156">
+    <P Name="Name">101-HSW-A03</P>
+    <P Name="Position">[887, 578, 1397, 728]</P>
     <P Name="InternalMargins">[0, 0, 0, 0]</P>
     <P Name="FixedHeight">on</P>
     <P Name="FixedWidth">on</P>
@@ -4067,7 +4068,7 @@ theta = theta_des</Description>
     <P Name="BackgroundColor">[0.800000, 0.800000, 0.800000]</P>
     <P Name="DropShadow">on</P>
     <P Name="AnnotationType">area_annotation</P>
-    <P Name="ZOrder">142</P>
+    <P Name="ZOrder">184</P>
     <P Name="FontSize">12</P>
   </Annotation>
 </System>
@@ -4097,9 +4098,9 @@ __MWOPC_PART_BEGIN__ /simulink/windowsInfo.xml
           <P Name="ViewObjType" Class="char">SimulinkTopLevel</P>
           <P Name="LoadSaveID" Class="char">0</P>
           <P Name="Extents" Class="double">[1434.0, 637.0]</P>
-          <P Name="ZoomFactor" Class="double">1.25</P>
-          <P Name="Offset" Class="double">[285.08900859156932, 607.12637711773186]</P>
-          <P Name="SceneRectInView" Class="double">[285.08900859156932, 607.12637711773186, 1147.2, 509.6]</P>
+          <P Name="ZoomFactor" Class="double">1.0</P>
+          <P Name="Offset" Class="double">[25.166666666666856, 228.83333333333337]</P>
+          <P Name="SceneRectInView" Class="double">[25.166666666666856, 228.83333333333337, 1434.0, 637.0]</P>
         </Object>
         <Object ObjectID="6">
           <P Name="IsActive" Class="logical">0</P>
